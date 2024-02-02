@@ -1,7 +1,7 @@
 project_name: "api-explorer"
 
 application: api-explorer {
-  label: "API Explorer"
+  label: "API Explorer New"
   file: "bundle.js"
   # url: "https://localhost:8080/dist/bundle.js"
   entitlements: {
@@ -20,6 +20,6 @@ application: api-explorer {
 }
 
 constant: CONNECTION_NAME {
-  value: ""
+  value: "looker_partner_demo"
   export: override_optional
 }
